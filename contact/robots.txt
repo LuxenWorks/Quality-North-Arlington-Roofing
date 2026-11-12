@@ -1,0 +1,14 @@
+# Search engines and AI search crawlers are welcome.
+User-agent: *
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+Sitemap: https://qualitynortharlingtonroofing.com/sitemap.xml
