@@ -1,0 +1,15 @@
+{
+ "name": "Quality North Arlington Roofing",
+ "short_name": "Quality North Arlington Roofing",
+ "start_url": "/",
+ "display": "standalone",
+ "background_color": "#f1f1ee",
+ "theme_color": "#7d2d20",
+ "icons": [
+  {
+   "src": "/assets/logo.svg",
+   "sizes": "any",
+   "type": "image/svg+xml"
+  }
+ ]
+}
