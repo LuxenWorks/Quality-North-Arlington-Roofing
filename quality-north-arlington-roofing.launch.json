@@ -1,0 +1,80 @@
+{
+  "site": "quality-north-arlington-roofing",
+  "business_name": "Quality North Arlington Roofing",
+  "sheet_row": null,
+  "trade": "",
+  "state": "NJ",
+  "service_area": "North Arlington, Kearny, Lyndhurst, Belleville",
+  "launch_status": "ready once the phone number is set and the partner's New Jersey  contractor details are confirmed",
+  "domain": {
+    "recommended": "qualitynortharlingtonroofing.com",
+    "registrar": "Namecheap",
+    "years": 1,
+    "privacy": true,
+    "auto_renew": true,
+    "price_cap_usd": null,
+    "availability_checked": "2026-10-30 (Verisign RDAP, first-300 list)"
+  },
+  "street": "70 Ridge Rd, North Arlington, NJ 07031",
+  "phone": {
+    "provider": "twilio",
+    "preferred_area_codes": [
+      "800",
+      "201"
+    ],
+    "routes_to": null,
+    "recording_announcement": false,
+    "price_cap_usd": null,
+    "provider_decided": "2026-10-30 15:11 (Daniel)"
+  },
+  "analytics": {
+    "cloudflare_web_analytics": true,
+    "clarity_project_id": null,
+    "ga4_measurement_id": null,
+    "ga4_event": "click_to_call (sent by the finalize step on every tel: click)",
+    "gpc_respected": true
+  },
+  "google": {
+    "workspace_account": null,
+    "search_console": {
+      "property": "sc-domain:qualitynortharlingtonroofing.com",
+      "verify": "DNS TXT through Cloudflare",
+      "submit": "sitemap via API; URL Inspection API for key pages; a person presses Request indexing for home + top 5"
+    },
+    "business_profile": {
+      "status": "not created",
+      "primary_category": "Roofing contractor",
+      "secondary_categories": [
+        "Gutter installation service",
+        "Gutter cleaning service",
+        "Roof inspector",
+        "Waterproofing service",
+        "Sheet metal contractor"
+      ],
+      "kit": "kit.json → gbp"
+    }
+  },
+  "bing": {
+    "webmaster": "add + verify, submit sitemap",
+    "indexnow_key_file": "36202ce15571eeac9c1646ed14ea68c9.txt"
+  },
+  "drive_folder": null,
+  "form_endpoint": null,
+  "build": {
+    "launch_dist": "quality-north-arlington-roofing-launch-dist.zip",
+    "finalize": "python finalize.py launch-dist out --phone <+1XXXXXXXXXX> [--ga4 G-XXXXXXX] [--clarity <id>]   (domain and street are already in the build)"
+  },
+  "needs_before_run": [
+    "Daniel: price caps for domain and number",
+    "Namecheap API key + whitelisted IP in AI Command vault",
+    "Bing Webmaster API key",
+    "Cloudflare token scopes checked (Zone, DNS, Pages, Web Analytics)",
+    "Twilio: confirm the account behind the vault key is paid (not trial); Twilio connector in AI Command (86bcvqgcf)",
+    "GA4 property and measurement ID under the business's own Google Workspace (Analytics Admin API, or a person)",
+    "Clarity project ID (no API; a person creates one per site)",
+    "Google Search Console scope on the OAuth token",
+    "New Jersey: partner's  contractor licence or registration number, and whether state rules require it in advertising — confirm wording before launch"
+  ],
+  "written": "2026-11-02, Claude (In-House Lead Gen)",
+  "street_note": "From the first-300 address list (30 Oct); lease not signed yet; replace if the lease fails (Daniel 17:26)."
+}
